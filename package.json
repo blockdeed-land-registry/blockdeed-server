@@ -4,7 +4,7 @@
   "description": "\"Blockchain Based Land Registry System\"",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon --watch main.js",
+    "dev": "nodemon main.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,7 +21,7 @@
     "bcryptjs": "^3.0.2",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.15.1",
